@@ -1432,12 +1432,15 @@
     to-fast-properties "^2.0.0"
 
 "@crowdin/cli@3":
-  version "3.7.9"
-  resolved "https://registry.yarnpkg.com/@crowdin/cli/-/cli-3.7.9.tgz#3a918642c6ceee6fa8f9407092f9f7328f349f3b"
-  integrity sha512-UmGWBuRI0atIMjqtDf7SbyyJNAeB5xW2E8q7R+rtkeqY6LqyNtb+sKS2deMLhTH93AtWfDmGFt4TzOTeILvCaA==
+  version "3.10.0"
+  resolved "https://registry.yarnpkg.com/@crowdin/cli/-/cli-3.10.0.tgz#14f9071860f2fa1ebc918624fbe57bf9677e8f8f"
+  integrity sha512-ez2nZ84jLe/WppZ5ggfZtC9rDUyCbsYengsmKVKeUYfx30lccuyAeQltAdxcwU4v3f58hTNAty0VvCx9zLPl0Q==
   dependencies:
-    njre "^0.2.0"
+    command-exists-promise "^2.0.2"
+    node-fetch "2.6.7"
     shelljs "^0.8.4"
+    tar "^4.4.8"
+    yauzl "^2.10.0"
 
 "@docsearch/css@3.0.0-alpha.42":
   version "3.0.0-alpha.42"
@@ -6350,16 +6353,6 @@ nice-try@^1.0.4:
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.5.tgz#a3378a7696ce7d223e88fc9b764bd7ef1089e366"
   integrity sha512-1nh45deeb5olNY7eX82BkPO7SSxR5SSYJiPTrTdFUVYwAl8CKMA5N9PjTYkHiRjisVcxcQ1HXdLhx2qxxJzLNQ==
 
-njre@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/njre/-/njre-0.2.0.tgz#e5abfbafafb3db4438fe6b149da9a733fab0bf3d"
-  integrity sha512-+Wq8R6VmjK+jI8a9NdzfU6Vh50r3tjsdvl5KJE1OyHeH8I/nx5Ptm12qpO3qNUbstXuZfBDgDL0qQZw9JyjhMw==
-  dependencies:
-    command-exists-promise "^2.0.2"
-    node-fetch "^2.5.0"
-    tar "^4.4.8"
-    yauzl "^2.10.0"
-
 no-case@^3.0.4:
   version "3.0.4"
   resolved "https://registry.yarnpkg.com/no-case/-/no-case-3.0.4.tgz#d361fd5c9800f558551a8369fc0dcd4662b6124d"
@@ -6375,7 +6368,7 @@ node-emoji@^1.10.0:
   dependencies:
     lodash.toarray "^4.4.0"
 
-node-fetch@2.6.7, node-fetch@^2.5.0:
+node-fetch@2.6.7:
   version "2.6.7"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.7.tgz#24de9fba827e3b4ae44dc8b20256a379160052ad"
   integrity sha512-ZjMPFEfVx5j+y2yF35Kzx5sF7kDzxuDj6ziH4FFbOp87zKDZNx8yExJIb05OGF4Nlt9IHFIMBkRl41VdvcNdbQ==
